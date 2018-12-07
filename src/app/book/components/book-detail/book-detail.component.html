@@ -1,14 +1,21 @@
 <mat-card *ngIf="book">
   <mat-card-title-group>
-    <img mat-card-sm-image *ngIf="thumbnail" [src]="thumbnail" />
     <mat-card-title *ngIf="title">{{ title }}</mat-card-title>
     <mat-card-subtitle *ngIf="subtitle">{{ subtitle }}</mat-card-subtitle>
   </mat-card-title-group>
   <mat-card-content>
-    <p *ngIf="authors">Written by [{{ authors }}]</p>
-    <p *ngIf="publisher">Published by [{{ publisher }}] <span *ngIf="publishedDate">on [{{ publishedDate }}]</span></p>
-    <p *ngIf="averageRating">Rating: {{ averageRating }}</p>
-    <p *ngIf="description" [innerHTML]="description"></p>
+    <div class="clearfix">
+      <img mat-card-image *ngIf="image" [src]="image" class="float-left" />
+      <ul>
+        <li *ngIf=" authors">Written by
+          <i>{{ authors }}</i></li>
+        <li *ngIf="publisher">
+          Published by <i>{{ publisher }}</i><span *ngIf="publishedDate"> on <i>{{ publishedDate }}</i></span>
+        </li>
+        <li *ngIf="averageRating">Rating: {{ averageRating }}</li>
+      </ul>
+      <p *ngIf="description" [innerHTML]="description"></p>
+    </div>
   </mat-card-content>
   <mat-card-actions>
     <button mat-button color="primary" (click)="back();">Close</button>

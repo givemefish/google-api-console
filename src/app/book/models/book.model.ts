@@ -12,6 +12,9 @@ export interface Book {
     imageLinks: {
       thumbnail: string;
       smallThumbnail: string;
+      small: string;
+      medium: string;
+      larg: string;
     };
   };
 }

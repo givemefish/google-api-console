@@ -10,11 +10,17 @@ md-card {
 md-card-title-group {
     margin-left: 0;
 }
+
 img {
-    width: 64px;
-    min-width: 64px;
-    margin-left: 5px;
+    width: 120px;
+    min-width: 120px;    
+    margin: 0 15px !important;
 }
+
+li {
+    list-style-type: none;    
+}
+
 md-card-content {
     margin: 15px 0 50px;
 }

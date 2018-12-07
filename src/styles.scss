@@ -8,3 +8,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .w-100 {
   width: 100%;
 }
+
+.float-left {
+  float: left;
+}
+
+.clearfix {
+  &::after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+}

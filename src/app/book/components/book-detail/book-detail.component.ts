@@ -40,9 +40,9 @@ export class BookDetailComponent implements OnInit {
     return null;
   }
 
-  get thumbnail(): string {
+  get image(): string {
     if (this.book.volumeInfo && this.book.volumeInfo.imageLinks) {
-      return this.book.volumeInfo.imageLinks.smallThumbnail;
+      return this.book.volumeInfo.imageLinks.small || this.book.volumeInfo.imageLinks.smallThumbnail;
     }
     return null;
   }

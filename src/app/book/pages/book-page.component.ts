@@ -17,6 +17,7 @@ export class BookPageComponent implements OnInit {
   searchText = '';
   searching = false;
   books: Book[] = [];
+  obj: any;
 
   constructor(private bookSvc: BookService) { }
 
@@ -40,8 +41,8 @@ export class BookPageComponent implements OnInit {
     this.searching = true;
     if (searchText) {
       this.bookSvc.searchBooks(searchText)
-        .subscribe((books: any) => {
-          this.books = books.items;
+        .subscribe((books: Book[]) => {
+          this.books = books;
           this.searching = false;
         });
     } else {
