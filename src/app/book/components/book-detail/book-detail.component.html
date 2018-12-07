@@ -5,7 +5,10 @@
     <mat-card-subtitle *ngIf="subtitle">{{ subtitle }}</mat-card-subtitle>
   </mat-card-title-group>
   <mat-card-content>
-    <p *ngIf="description">{{ description }}</p>
+    <p *ngIf="authors">Written by [{{ authors }}]</p>
+    <p *ngIf="publisher">Published by [{{ publisher }}] <span *ngIf="publishedDate">on [{{ publishedDate }}]</span></p>
+    <p *ngIf="averageRating">Rating: {{ averageRating }}</p>
+    <p *ngIf="description" [innerHTML]="description"></p>
   </mat-card-content>
   <mat-card-actions>
     <button mat-button color="primary" (click)="back();">Close</button>

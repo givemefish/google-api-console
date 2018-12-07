@@ -23,28 +23,56 @@ export class BookDetailComponent implements OnInit {
     if (this.book.volumeInfo) {
       return this.book.volumeInfo.title;
     }
-    return '';
+    return null;
   }
 
   get subtitle() {
     if (this.book.volumeInfo) {
       return this.book.volumeInfo.subtitle;
     }
-    return '';
+    return null;
   }
 
   get description() {
     if (this.book.volumeInfo) {
       return this.book.volumeInfo.description;
     }
-    return '';
+    return null;
   }
 
   get thumbnail(): string {
     if (this.book.volumeInfo && this.book.volumeInfo.imageLinks) {
       return this.book.volumeInfo.imageLinks.smallThumbnail;
     }
-    return '';
+    return null;
+  }
+
+  get authors(): string {
+    if (this.book.volumeInfo) {
+      return this.book.volumeInfo.authors.join(',');
+    }
+    return null;
+  }
+
+  get publisher(): string {
+    if (this.book.volumeInfo) {
+      return this.book.volumeInfo.publisher;
+    }
+    return null;
+  }
+
+  get publishedDate(): string {
+    if (this.book.volumeInfo) {
+      return this.book.volumeInfo.publishedDate;
+    }
+    return null;
+  }
+
+  get averageRating(): number {
+    if (this.book.volumeInfo) {
+      return this.book.volumeInfo.averageRating;
+    }
+    return null;
   }
 
   back() {

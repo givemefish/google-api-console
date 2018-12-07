@@ -1,20 +1,20 @@
 {
   "configVersion": 1,
-  "index": "google-api-console/index.html",
+  "index": "/google-api-console/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "google-api-console/4.6fb5d7730d2673b9d9e9.js",
-        "google-api-console/5.8e8e4ba8ce2063717f38.js",
-        "google-api-console/favicon.ico",
-        "google-api-console/index.html",
-        "google-api-console/main.203647548a818a3e81fa.js",
-        "google-api-console/polyfills.20ab2d163684112c2aba.js",
-        "google-api-console/runtime.986af50c89628d593bc3.js",
-        "google-api-console/styles.59d962c8acfda45b9cdd.css"
+        "/google-api-console/4.1f6a6b1294ad54401de9.js",
+        "/google-api-console/5.8e8e4ba8ce2063717f38.js",
+        "/google-api-console/favicon.ico",
+        "/google-api-console/index.html",
+        "/google-api-console/main.203647548a818a3e81fa.js",
+        "/google-api-console/polyfills.20ab2d163684112c2aba.js",
+        "/google-api-console/runtime.8707f9799de36d472700.js",
+        "/google-api-console/styles.59d962c8acfda45b9cdd.css"
       ],
       "patterns": []
     },
@@ -23,36 +23,36 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "google-api-console/assets/icons/icon-128x128.png",
-        "google-api-console/assets/icons/icon-144x144.png",
-        "google-api-console/assets/icons/icon-152x152.png",
-        "google-api-console/assets/icons/icon-192x192.png",
-        "google-api-console/assets/icons/icon-384x384.png",
-        "google-api-console/assets/icons/icon-512x512.png",
-        "google-api-console/assets/icons/icon-72x72.png",
-        "google-api-console/assets/icons/icon-96x96.png"
+        "/google-api-console/assets/icons/icon-128x128.png",
+        "/google-api-console/assets/icons/icon-144x144.png",
+        "/google-api-console/assets/icons/icon-152x152.png",
+        "/google-api-console/assets/icons/icon-192x192.png",
+        "/google-api-console/assets/icons/icon-384x384.png",
+        "/google-api-console/assets/icons/icon-512x512.png",
+        "/google-api-console/assets/icons/icon-72x72.png",
+        "/google-api-console/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "google-api-console/4.6fb5d7730d2673b9d9e9.js": "f86d915dfb6acccd8ca12fd05c7633ce2bb7f35e",
-    "google-api-console/5.8e8e4ba8ce2063717f38.js": "804fd2634e8759c52e0ee8e5a5d72e460b339756",
-    "google-api-console/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "google-api-console/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "google-api-console/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "google-api-console/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "google-api-console/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "google-api-console/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "google-api-console/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "google-api-console/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "google-api-console/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "google-api-console/index.html": "85a838ac72cb766b5efe47f0568bc3a200711f8f",
-    "google-api-console/main.203647548a818a3e81fa.js": "e7ba991fd784a44712b851cdc33f8d5ec319f0a2",
-    "google-api-console/polyfills.20ab2d163684112c2aba.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
-    "google-api-console/runtime.986af50c89628d593bc3.js": "31b32ed1df01a288238a063b4b59e4f4247d4993",
-    "google-api-console/styles.59d962c8acfda45b9cdd.css": "8efdc83d8fd47a89c50718a664541691ed7d9244"
+    "/google-api-console/4.1f6a6b1294ad54401de9.js": "ac82ee848fffeb25b342c537fc71bc95f598e323",
+    "/google-api-console/5.8e8e4ba8ce2063717f38.js": "804fd2634e8759c52e0ee8e5a5d72e460b339756",
+    "/google-api-console/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/google-api-console/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/google-api-console/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/google-api-console/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/google-api-console/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/google-api-console/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/google-api-console/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/google-api-console/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/google-api-console/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/google-api-console/index.html": "5508e5126bc961adfbaf718dbbb2feb772bcc588",
+    "/google-api-console/main.203647548a818a3e81fa.js": "e7ba991fd784a44712b851cdc33f8d5ec319f0a2",
+    "/google-api-console/polyfills.20ab2d163684112c2aba.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
+    "/google-api-console/runtime.8707f9799de36d472700.js": "b13172163b11d95336ec8e00e9fe98c37d60bb55",
+    "/google-api-console/styles.59d962c8acfda45b9cdd.css": "8efdc83d8fd47a89c50718a664541691ed7d9244"
   },
   "navigationUrls": [
     {
