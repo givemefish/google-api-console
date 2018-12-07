@@ -1,0 +1,66 @@
+import { NgModule } from '@angular/core';
+import {
+  MatSidenavModule,
+  MatListModule,
+  MatTabsModule,
+  MatButtonModule,
+  MatCheckboxModule,
+  MatToolbarModule,
+  MatCardModule,
+  MatDividerModule,
+  MatRadioModule,
+  MatGridListModule,
+  MatInputModule,
+  MatIconModule,
+  MatChipsModule,
+  MatMenuModule,
+  MatSelectModule,
+  MatProgressSpinnerModule,
+  MatFormFieldModule,
+  MatProgressBarModule
+} from '@angular/material';
+
+@NgModule({
+  declarations: [],
+  imports: [
+    MatSidenavModule,
+    MatListModule,
+    MatTabsModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatFormFieldModule,
+    MatToolbarModule,
+    MatCardModule,
+    MatDividerModule,
+    MatRadioModule,
+    MatGridListModule,
+    MatInputModule,
+    MatIconModule,
+    MatChipsModule,
+    MatMenuModule,
+    MatSelectModule,
+    MatProgressSpinnerModule,
+    MatProgressBarModule
+  ],
+  exports: [
+    MatSidenavModule,
+    MatListModule,
+    MatTabsModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatFormFieldModule,
+    MatToolbarModule,
+    MatCardModule,
+    MatDividerModule,
+    MatRadioModule,
+    MatGridListModule,
+    MatInputModule,
+    MatIconModule,
+    MatChipsModule,
+    MatMenuModule,
+    MatSelectModule,
+    MatProgressSpinnerModule,
+    MatProgressBarModule
+  ],
+})
+export class SharedMaterialModule { }
